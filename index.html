@@ -116,13 +116,17 @@
                             <p>
                                     To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
                             </p>
-                            <code class="line-break">
-                                <pre>
-                                    function greetMe(yourName){
-                                    alert("Hello " + yourName);
-                                    }
-                                    greetMe("World");</pre>
+                            <div class="code">
+                                <button onclick="copyFunc()" id="copy">Copy Code</button>
+                            <code  class="line-break">
+  <pre id="hello-world">
+  function greetMe(yourName){
+  alert("Hello " + yourName);
+  }
+  greetMe("World");</pre>
                             </code>
+                            </div>
+                            
                             <p class="line-break">
                                     Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
                                 </p>

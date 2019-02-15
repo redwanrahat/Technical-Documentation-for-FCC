@@ -103,18 +103,25 @@ section li {
 
 code {
     text-align: left;
-    word-break: normal;
-    word-wrap: normal;
     line-height: 2;
 }
 
-pre{
+.code{
     background-color: rgb(240, 240, 240);
     margin-top: 2vw;    
     margin-bottom: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding: .5vw;
     border-radius: 10px;
+}
+
+#copy{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: .7em;
+    border-radius: 5px;
+    float: right;
 }
 
 @media all and (min-width: 1921px){
@@ -153,7 +160,7 @@ pre{
     }
     
     .part {
-        font-size: 2.5em;
+        font-size: 2.5em;   
     }
 
 }
