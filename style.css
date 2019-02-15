@@ -1,15 +1,117 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-*{
-    font-family: 'Lato', sans-serif;
+* {
     margin: 0;
     padding: 0;
 }
 
-#head{
+#head {
     background-color: #FFC054;
-    color: white; 
+    font-family: 'Lato', sans-serif;
+    color: white;
     font-size: 1.5em;
-    padding: .8%;
-    padding-left: 2%;
+    padding: .8vw;
+    padding-left: 2vw;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#docmentation {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* #nav-parent{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    position: fixed;
+} */
+
+#navbar {
+    font-family: 'Lato', sans-serif;
+    width: 20vw;
+    position: fixed;
+    top: 6vw;
+}
+
+#main-doc {
+    font-family: 'Lato', sans-serif;
+    width: 55vw;
+    position: relative;
+    top: 8vw;
+    z-index: 0;
+}
+
+nav li {
+    list-style: none;
+    height: 2.5vw;
+    font-family: 'Lato', sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+#topic {
+    font-size: 1.3em;
+    margin-bottom: 1.5vw;
+    color: #FFC054;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    color: #FFC054;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+a:active {
+    color: black;
+}
+
+#int {
+    font-size: 2em;
+    margin-bottom: 3vw;
+}
+
+.part {
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    font-size: 2em;
+}
+
+.line-break {
+    margin-bottom: 2vw;
+}
+
+article {
+    color: #606060;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+section li {
+    list-style: disc;
+    margin-left: 1.2vw;
+}
+
+code {
+    text-align: left;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+}
+
+pre{
+    background-color: #E6E6E6;
+    margin-top: 2vw;    
+    margin-bottom: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
