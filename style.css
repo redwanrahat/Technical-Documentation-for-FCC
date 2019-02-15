@@ -109,9 +109,51 @@ code {
 }
 
 pre{
-    background-color: #E6E6E6;
+    background-color: rgb(240, 240, 240);
     margin-top: 2vw;    
     margin-bottom: 2vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 10px;
+}
+
+@media all and (min-width: 1921px){
+
+    #navbar {
+        width: 20%;
+        top: 8vw;
+        left: 20vw;
+    }
+
+    nav li {
+        height: 2vw;
+    }
+
+    #main-doc {
+        width: 40%;
+        top: 6vw;
+        left: 5vw;
+    }
+    #docmentation {
+        justify-content: center;
+        position: relative;
+    }
+
+    section li {
+        margin-left: .8vw;
+    }
+
+    article {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+
+    #int {
+        font-size: 2.5em;
+    }
+    
+    .part {
+        font-size: 2.5em;
+    }
+
 }
